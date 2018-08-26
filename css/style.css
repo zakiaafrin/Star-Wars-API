@@ -1,0 +1,63 @@
+/* starter */
+body{
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(196, 130, 165); */
+  background-image: url(https://i.pinimg.com/originals/d7/ab/5d/d7ab5dfc9c98b294688de987bfc0b094.jpg);
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+header img{
+  width: 60%;
+}
+img{
+  min-height: 5%;
+  width: 10vw; 
+}
+
+/* Assignment */
+.container{
+  border: 1px solid black;
+  min-height: 15vh;
+  min-width: 25vw;
+  margin: 4vh 3vw 4vh 3vw;
+  padding: 10px;
+  background-color: rgb(16, 2, 66);
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+  /* flex-direction: column; */
+}
+
+.container img{
+  border-bottom: 1px solid black;
+  min-height: 55vh;
+  max-height: 45vh;
+  min-width: 100%;
+}
+
+.container .body{
+  display: flex;
+  flex-direction: row;
+}
+
+.container .values{
+  flex: 1;
+  justify-content: flex-end;
+  text-align: right;
+  padding-right: 2vw;
+}
+
+.results{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+
